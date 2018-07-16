@@ -18,13 +18,13 @@
                             <label for="task-name" class="col-sm-3 control-label">Book</label>
 
                             <div class="col-sm-6">
-                                <input type="text" name="name" id="book-name" class="form-control" calue="{{ old('book') }}">
+                                <input type="text" name="name" id="book-name" class="form-control" value="{{ old('book') }}">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
-                                <button types="submit" class="btn btn-default">
+                                <button type="submit" class="btn btn-default">
                                     <i class="fa fa-plus"></i>本を追加する
                                 </button>
                             </div>
@@ -46,7 +46,7 @@
                                 <th>&nbsp;</th>
                             </thead>
                             <tbody>
-                                @foreach ($books as $ book)
+                                @foreach ($books as $book)
                                     <tr>
                                         <td class="table-text"><div>{{ $books->title }}</div></td>
 
