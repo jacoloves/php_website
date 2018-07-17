@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 */
 
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middlewareGroups' => ['web']], function () {
 
     Route::get('/', function(){
         $books = Book::all();
@@ -48,6 +48,8 @@ Route::group(['middleware' => ['web']], function () {
     });
 
     Route::delete('/book/{book}', function(Book $book){
-        //
+        $book->delete();
+
+        return redirect('/');
     });
 });

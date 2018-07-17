@@ -48,7 +48,7 @@
                             <tbody>
                                 @foreach ($books as $book)
                                     <tr>
-                                        <td class="table-text"><div>{{ $books->title }}</div></td>
+                                        <td class="table-text"><div>{{ $book->title }}</div></td>
 
                                         <td>
                                             <form action="/book/{{ $book->id }}" method="POST">
