@@ -11,36 +11,19 @@ class HelloController extends Controller
 {
     public function index(){
 
-        $data = ['msg'=>'これはコントローラから渡されたメッセージです。'];
+        $data = [
+            'msg'=>'お名前を入力して下さい。',
+        ];
+        return view('hello.index',  $data);
+    }
+
+    public function post(Request $request)
+    {
+        $msg = $request->msg;
+
+        $data = [
+            'msg'=>'こんにちは、' . $msg . 'さん！',
+        ];
         return view('hello.index', $data);
-
-        /*return <<<EOF
-
-        <html>
-            <head>
-                <title>Hello</title>
-                <style>
-                    body {
-                            font-size:16pt, 
-                            color:#999; 
-                         }
-                    h1 { 
-                            font-size:120pt;
-                            text-align:right;
-                            color:#fafafa;
-                            margin:-50px 0px -120px 0px;
-                        }
-                </style>
-            </head>
-            <body>
-                    <h1>Hello</h1>
-                    <h3>Request</h1>
-                    <pre>{$request}</pre>
-
-            </body>
-        </html>
-EOF;
-        $responce->setContent($html);
-        return $responce;*/
     }
 }
