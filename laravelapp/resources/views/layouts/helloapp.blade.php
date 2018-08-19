@@ -40,7 +40,7 @@
     </head>
     <body>
         <h1>@yield('title')</h1>
-        @section('murder')
+        @section('menubar')
         <ul>
             <p class="menutitle">※メニュー</p>
             <li>@show</li>
