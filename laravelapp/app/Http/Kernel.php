@@ -45,7 +45,7 @@ class Kernel extends HttpKernel
 
         'helo' => [
             \App\Http\Middleware\HelloMiddleware::class,
-        ]
+        ],
     ];
 
     /**
