@@ -15,8 +15,8 @@ class HelloMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $responce = $next($request);
-        $content = $responce->content();
+        $response = $next($request);
+        $content = $response->content();
 
         $pattern = '/<middleware>(.*)<\/middleware>/i';
         $replace = '<a href="http://$1">$1</a>';
