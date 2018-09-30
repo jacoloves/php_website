@@ -16,14 +16,16 @@ class HelloController extends Controller
 
     public function post(Request $requst)
     {
-        $validator = Validator::make($requst->all(),[
-            'name' => 'required',
-            'mail' => 'email',
-            'age' => 'numeric|between:0,150',
+        $validator = Validator::make($request->query(), [
+            'id' => 'required',
+            'pass' => 'required',
         ]);
         if($validator->fails()){
-            return redirect('/hello')->withErrors($validator)->withInput();
+            $msg = 'クエリーに問題があります。';
+        }else{
+            $msg = 'ID/PASSを受け付けました。フォームを入力下さい。';
         }
-        return view('hello.index', ['msg'=>'正しく入力されました！']);
+
+        return view('hello.index', ['msg'=>$msg, ]);
     }
 }
