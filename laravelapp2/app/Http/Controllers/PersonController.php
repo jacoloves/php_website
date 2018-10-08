@@ -22,6 +22,7 @@ class PersonController extends Controller
     {
         $item = Person::where('name', $request->input)->first();
         $param = ['input' => $request->input, 'item' => $item];
+
         return view('person.find', $param);
     }
 }
