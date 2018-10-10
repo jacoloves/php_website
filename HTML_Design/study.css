@@ -1,0 +1,12 @@
+hr.blue_line {
+    margin-bottom: 0px;
+    border-top-width: 3px;
+}
+
+input.study_detail {
+    border: inset;
+}
+
+select.durationHour {
+    border: inset;
+}
