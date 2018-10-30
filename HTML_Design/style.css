@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
  html, body {
      margin: 0;
      padding: 0;
@@ -10,4 +14,14 @@
      width: 100%;
      margin: auto;
      background: url(./img/title.jpg) no-repeat;
+     display: table;
+     top: 0;
+     background-size: cover;
+ }
+
+ .intro .inner {
+     display: table-cell;
+     vertical-align: middle;
+     width: 100%;
+     max-width: none;
  }
