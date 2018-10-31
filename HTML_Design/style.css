@@ -43,10 +43,10 @@
  .btn {
      border-radius: 9px;
      font-family: 'Oswald', sans-serif;
-     color: #036A81;
+     color: red;
      font-size: 135%;
      padding: 10px 20px;
-     border: solid #036a81 3px;
+     border: solid red 3px;
      text-transform: uppercase;
      text-decoration: none;
  }
