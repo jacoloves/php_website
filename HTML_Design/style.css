@@ -55,3 +55,9 @@
      color: #fff;
      border: solid #fff 3px;
  }
+
+ p {
+     font-size: 160%;
+     line-height: 210%;
+     text-align: justify;
+ }
