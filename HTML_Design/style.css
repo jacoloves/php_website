@@ -20,6 +20,16 @@
      background-size: cover;
  }
 
+ .intro2 {
+     height: 100%;
+     width: 100%;
+     margin: auto;
+     background: url(./img/middle.jpg) no-repeat;
+     display: table;
+     top: 0;
+     background-size: cover;
+ }
+
  .intro .inner {
      display: table-cell;
      vertical-align: middle;
@@ -37,7 +47,13 @@
      font-family: 'Raleway', sans-serif;
      color: white;
      text-shadow: 0px 0px 300px #000;
-     font-size: 500%;
+     font-size: 200%;
+     margin-bottom: 0%;
+ }
+
+ .content h2 {
+    font-family: 'Raleway', sans-serif;    
+    color: white;
  }
 
  .btn {
