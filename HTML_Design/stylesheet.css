@@ -1,11 +1,37 @@
-h1 {
-    color: #ff0000;
-    font-size: 40px;
-    font-family: serif;
+body {
+    font-family: "Avenir Next";
 }
 
-p {
-    color: #0000ff;
-    font-size: 20px;
-    font-family: "Lucia Grande";
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #f7f2b4;
+    height: 90px;
+}
+
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list {
+    float: left;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.main {
+    background-color: #bdf7f1;
+    height: 600px;
+}
+
+.footer {
+    background-color: #ceccf3;
+    height: 270px;
 }
