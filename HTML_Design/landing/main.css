@@ -1,25 +1,27 @@
-.main {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    flex-direction: column;
-    height: 100vh;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
 }
 
 .container_first {
-    
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     background-image: url(./img/yama.jpg);
     background-size: cover;
+    top: 0;
 }
 
-.first_title {
-}
-
-.first_title h2 {
+.container_first h2 {
+    padding-top: 200px;
     margin-bottom: 0px;
 }
 
-.first_detail p {
+.container_first p {
     margin-top: 0px;
 }
 
@@ -28,5 +30,4 @@
     height: 200px;
     border-radius: 50%;
     box-shadow: 0 0 4px rgba(0,0,0,.25);
-    animation: fadeIn-data-v-467ce4d1 1s .5s forwards;
 }
