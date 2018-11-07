@@ -1,0 +1,32 @@
+.main {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container_first {
+    
+    background-image: url(./img/yama.jpg);
+    background-size: cover;
+}
+
+.first_title {
+}
+
+.first_title h2 {
+    margin-bottom: 0px;
+}
+
+.first_detail p {
+    margin-top: 0px;
+}
+
+.first_img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+    animation: fadeIn-data-v-467ce4d1 1s .5s forwards;
+}
