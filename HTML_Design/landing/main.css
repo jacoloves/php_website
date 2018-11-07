@@ -31,3 +31,10 @@ html, body {
     border-radius: 50%;
     box-shadow: 0 0 4px rgba(0,0,0,.25);
 }
+
+.first_allow {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin-left: 200px;
+}
