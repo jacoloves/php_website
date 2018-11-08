@@ -46,6 +46,7 @@ html, body {
     margin: auto;
     text-align: center;
     background-image: url(./img/second_wrapper.jpg);
+    background-position: 400px;
     background-size: cover;
     top: 0;
 }
@@ -53,10 +54,30 @@ html, body {
 .container_second h2 {
     font-size: 40px;
     color: black;
-    padding-top: 400px;
+    padding-top: 300px;
+    margin-top: 0px;
 }
 
 .container_second h1 {
     color: black;
 
+}
+
+.twitter_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.github_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.slack_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.sns_img {
+    margin-bottom: 150px;
 }
