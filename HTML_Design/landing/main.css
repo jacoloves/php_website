@@ -36,8 +36,8 @@ html, body {
 .allow_first {
     width: 60px;
     height: 60px;
-    padding-top: 30px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 80px;
 }
 
 .container_second {
@@ -79,6 +79,59 @@ html, body {
 }
 
 .sns_img {
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
+
+.container_third {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    top: 0;
+}
+
+.container_third h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 200px;
+    margin-bottom: 40px;
+    color: #555555;
+}
+
+.skill_set {
+    margin-bottom: 100px;  
+}
+
+.skill {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+    float: left;
+    margin-left: 100px;
+    /*margin-bottom: 400px;*/
+    list-style: none;
+}
+
+.html {
+    margin-left: 250px;
+}
+
+.skill img{
+    padding: 25px;
+    width: 100px;
+    height: 100px;   
+}
+
+.skill p {
+    font-size: 20px;
+    color: #555555;
+    font-weight: 700;
+}
+
+.container_fourth {
+    margin-top: 400px;
+    text-align: center;
+}
+
 
