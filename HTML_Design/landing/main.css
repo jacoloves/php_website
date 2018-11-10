@@ -99,7 +99,7 @@ html, body {
 }
 
 .skill_set {
-    margin-bottom: 100px;  
+    margin-bottom: 250px;  
 }
 
 .skill {
@@ -109,7 +109,6 @@ html, body {
     box-shadow: 0 0 4px rgba(0,0,0,.25);
     float: left;
     margin-left: 100px;
-    /*margin-bottom: 400px;*/
     list-style: none;
 }
 
@@ -133,5 +132,47 @@ html, body {
     margin-top: 400px;
     text-align: center;
 }
+
+.shokai {
+    width: 300px;
+    padding-bottom: 100px;
+}
+
+.shokai p {
+    padding-right: 150px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.member {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.shokai img {
+    padding-bottom: 10px;
+    padding-right: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+.m_first {
+    margin-left: 250px;
+}
+
+.tanto {
+    color: #555555;
+}
+
+.name {
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
 
 
