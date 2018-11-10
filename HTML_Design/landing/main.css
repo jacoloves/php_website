@@ -36,8 +36,8 @@ html, body {
 .allow_first {
     width: 60px;
     height: 60px;
-    padding-top: 160px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
 
 .container_second {
@@ -81,3 +81,4 @@ html, body {
 .sns_img {
     margin-bottom: 150px;
 }
+
