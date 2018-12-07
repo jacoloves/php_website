@@ -1,7 +1,6 @@
-const half = (number) => {
-    return number / 2;
-}
+import {dog1, dog2} from "../data/dogData.js";
 
-const result = harf(130);
-
-console.log(`130の半分は${result}です`);
+console.log("----------");
+dog1.info();
+console.log("----------");
+dog2.info();
